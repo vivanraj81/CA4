@@ -1,4 +1,3 @@
-// YourMainComponent.js
 import React, { useState } from "react";
 import "./App.css";
 import questions from "./questions";
@@ -13,7 +12,6 @@ function YourMainComponent() {
     if (isCorrect) {
       setScore((prevScore) => prevScore + 1);
     }
-    // Move to the next question
     setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
   };
 

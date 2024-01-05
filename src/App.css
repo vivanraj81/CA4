@@ -19,12 +19,12 @@ body {
     color: white;
   }
   .question-number {
-    color: black; /* Default color for question number class */
+    color: black; 
   }
   
   
   .blue-text {
-    color: blue !important; /* Blue color for que class when highlighted */
+    color: blue !important; 
   }
   
   .dark-bg.container {
@@ -46,10 +46,6 @@ text-align: center;
     border-radius: 50px;
     height: 5vh;
 }
-/* .dark-bg {
-    background-color: black;
-    color: white;  
-  } */
 .logo{
     margin-left: 40px;
     font-size: 40px;

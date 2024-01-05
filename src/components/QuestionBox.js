@@ -1,7 +1,5 @@
-// QuestionBox.js
 import React, { useState } from 'react';
 import '../App.css';
-
 export default function QuestionBox({ question, onAnswerClick }) {
   const [isDarkMode, setDarkMode] = useState(false);
   const [highlightColor, setHighlightColor] = useState('');
@@ -11,7 +9,7 @@ export default function QuestionBox({ question, onAnswerClick }) {
   };
 
   const handleOptionClick = (isCorrect) => {
-    onAnswerClick(isCorrect); // Pass whether the answer is correct to the parent component
+    onAnswerClick(isCorrect); 
     setHighlightColor('');
   };
 
