@@ -16,7 +16,6 @@ export default function QuestionBox({ question, onAnswerClick }) {
   const handleHighlightClick = () => {
     setHighlightColor('blue');
   };
-
   return (
     <>
       <div className={`container ${isDarkMode ? 'dark-bg' : ''}`}>
