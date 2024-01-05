@@ -4,7 +4,7 @@ import questions from "./questions";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
-function YourMainComponent() {
+function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
 
@@ -41,5 +41,5 @@ function YourMainComponent() {
   );
 }
 
-export default YourMainComponent;
+export default App;
 
