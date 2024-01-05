@@ -30,7 +30,7 @@ export default function QuestionBox({ question, onAnswerClick }) {
         </div>
         <div className='question'>
           <h2 className="queno">
-            {`Question: ${question.id + 1} of ${question.totalQuestions}`}
+            {`Question: ${question.id + 1} of 5`}
           </h2>
           <h1 className={`que ${highlightColor === 'blue' ? 'blue-text' : ''}`}>
             {question.text}
